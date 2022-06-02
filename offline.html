@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+    <nav class="navbar">
+        <button class="navbutton">Home</button>
+        <button class="snapmemory" id="start-camera"><span><img class="camimg"
+                    src="./camera-icon-21.png"></span></button>
+        <a href="./gallery.html"><button class="navbutton">Gallery</button></a>
+    </nav>
+
+    <div class="videocontainer">
+        <video id="video" class="videowindow" autoplay></video>
+        <button class="snapmemory" id="snap"><span>Snap</span></button>
+
+    </div>
+    <div class="canvascontainer">
+
+        <canvas class="canvasimg" id="canvas"></canvas>
+    </div>
+
+    <h1 class="textoffline">Were offline but it's okay..</h1>
+
+    <section id="imagetest">
+
+    </section>
+
+
+    <script src="home.js" async defer></script>
+</body>
+
+</html>
